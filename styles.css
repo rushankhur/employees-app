@@ -1,0 +1,44 @@
+html, body {
+    height: 100%; margin: 0;
+}
+
+.assignment {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+
+footer {
+    width: 100%;
+    background: url(./images/footer.jpg) no-repeat;
+    background-size: cover;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.outer {
+    min-height: 77%;
+    /*height: 80%;*/
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainLogin-bgImage {
+    background-image: url("./images/dark-door-door-handle-147634.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Circle button on the login page */
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
